@@ -18,6 +18,7 @@ Create a[ CLI](https://en.wikipedia.org/wiki/Command-line_interface) app using P
 * Utilise the[ click](https://click.palletsprojects.com/en/8.1.x/) module for the CLI interface, the app should take the following parameters:
     1. -l, --language (to filter by language)
     2. -d, --download (automatically downloads top subtitle)
+    3. -o, --output (output folder for the subtitles)
 * Find the IMDb ID of the given movie
 * Use beautifulsoup4 to scrape[ opensubtitles](https://www.opensubtitles.org/en/search/subs) and obtain the list of subtitles. Make sure to follow these guidelines:
   1. Searching should be done by using prior obtained IMDb ID
